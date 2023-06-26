@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghadi Ghadi</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+
+
+  </head>
+  <body>
+
+    <!-- Title Part -->
+    <div class="title mt-4">
+        <h1>GHADI GHADI</h1>
+    </div>
+    <div class="sub-title">
+        <h1>EXCLUSIVE NEPALESE MADE WATCHES</h1>
+    </div>
+ 
+    
+    <!-- Navbar -->
+    <hr class="line">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal_login">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">|</a>
+            </li>
+            <li class="nav-item">
+              <i class='bx bx-shopping-bag'  id="cart-icon" data-quantity = "0"></i>
+              <div class="cart">
+                <h2 class="cart-title ">Your Cart</h2>
+                <!-- Content -->
+                <div class="cart-content">
+                </div>
+                    <div class="cart-box">
+                        <!-- <img src="img/product1.jpeg" alt="" class="cart-img" /> -->
+                        <!-- <div class="detail-box">
+                            <div class="cart-product-title">Product Shirt</div>
+                            <div class="cart-price">Rs 50</div>
+                            <input 
+                            type="number" 
+                            name="" 
+                            id="" 
+                            value="1" 
+                            class="cart-quantity" />
+                        </div> -->
+                        <!-- Remove Item -->
+                        <!-- <i class='bx bx-trash-alt cart-remove'></i> -->
+                    </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs 0</div>
+                </div>
+                <!-- Buy Button -->
+                <a href="./success.html" type="button" class ="btn-buy" >Pay Now</a> 
+                <!-- Close Cart -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+              
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <hr class="line">
+
+
+    <!-- Timeless Quality carousel-->
+    <div id="watch-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <div class="c-img-container">
+                <img src="./assets/image/swiss-main.webp" class="img-responsive c-img" alt="...">
+                <div class="text-wrap">
+                  <h1>TIMELESS QUALITY</h1>
+                  <p>I'm paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+                  <button>Shop Now</button>
+                </div>
+              </div>
+        </div>
+            <div class="carousel-item c-item">
+                <div class="c-img-container">
+                    <img src="./assets/image/kilometers-watch.webp" class="img-responsive c-img" alt="...">
+                    <div class="text-wrap">
+                      <h1>TIMELESS QUALITY</h1>
+                      <p>I'm paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+                      <button>Shop Now</button>
+                    </div>
+                  </div>
+            </div>
+          <div class="carousel-item c-item">
+            <div class="c-img-container">
+                <img src="./assets/image/kilometers-watch-black-band.webp" class="img-responsive c-img" alt="...">
+                <div class="text-wrap">
+                  <h1>TIMELESS QUALITY</h1>
+                  <p>I'm paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.</p>
+                  <button>Shop Now</button>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- 4 watch showcase -->
+
+    <div class="container watch-case d-flex justify-content-center max-width-container" style="max-width: 1080px;">
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img class="img-thumbnail" src="./assets/image/black-jet.webp">
+          <figcaption class="fig-caption">BLACK JET</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img class="img-thumbnail" src="./assets/image/swiss-gents.webp">
+          <figcaption class="fig-caption">GENTS</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img class="img-thumbnail" src="./assets/image/xtime-sport.webp">
+          <figcaption class="fig-caption">XTIME SPORT</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-3">
+        <figure class="figure">
+          <img class="img-thumbnail" src="./assets/image/swiss-apollo.webp">
+          <figcaption class="fig-caption">APOLLO</figcaption>
+        </figure>
+      </div>
+    </div>
+ 
+
+    <!-- Modal for LogIn -->
+    <div class="modal" id="modal_login">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Log In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+          </div>
+          <div class="modal-body">
+            <!-- your login form goes here -->
+            <form id="myForm2" onsubmit="return validateFormForLogin();" method="post">
+            
+
+              <div class="form-group">
+                <input type="text" class="form-control" id="email" name="email" placeholder="Email or phone number" autofocus="1" aria-label="Email or phone number">
+                </div><br>
+                <div class="form-group">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password" autofocus="1" aria-label="Password">
+                </div><br>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-success" data-bs-target="#modal_signup" data-bs-toggle="modal">Sign Up</button>
+                
+  
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Modal For SignUp -->
+    <div class="modal" id="modal_signup">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          </div>
+          <div class="modal-body">
+
+            <div class="container">
+
+              <form  id="myForm" onsubmit="return validateForm()" method="post">
+  
+                
+                <div class="form-group mb-2">
+                  <label for="fullname">Full Name:</label>
+                  <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter Full Name" >
+                </div>
+                <div class="form-group mb-2">
+                  <label for="phoneNumber">Phone Number:</label>
+                  <input type="tel" class="form-control" id="phoneNumber" name="number" placeholder="Enter phone number" pattern="[0-9]{10}" >
+                </div>
+                <div class="form-group mb-2">
+                  <label for="password"> New Password:</label>
+                  <input type="password" class="form-control" id="password1" placeholder="Enter password" >
+                </div>
+                
+                <div class="form-group mb-2">
+                  <label for="password"> Confirm Password:</label>
+                  <input type="password" class="form-control" id="passwordAgain" placeholder="Enter password" >
+                </div>
+                
+                <div class="form-group mb-2">
+                  <label for="email">Email:</label>
+                  <input type="text" class="form-control" id="email1" placeholder="Enter email">
+                </div>
+
+                <div class="form-group mb-4">
+                  <label for="birthday" class="form-label">Birthday:</label>
+                  <input type="text" class="form-control" id="birthday" name="birthday" placeholder="Enter birthday">
+                </div>
+            </div>
+
+            <div class="form-check form-switch mb-2">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              <label class="form-check-label" for="flexSwitchCheckDefault" required> I agree to the terms and conditions.</label>
+            </div>
+          
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+              <button type="submit" class="btn btn-success" style="--bs-bg-opacity: .75; ">Sign Up</button>
+            </div>
+          </form>
+
+
+             
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+
+
+
+
+
+    
+    <script type="text/javascript" src="./validation.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
