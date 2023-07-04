@@ -23,6 +23,10 @@
     margin: 0 auto;
 }
 
+.full-line{
+  width: 100%;
+}
+
 .navbar{
     width: 90%;
     margin: 0 auto;
@@ -74,7 +78,7 @@
   .text-wrap {
     position: absolute;
     top: 0;
-    left: 40vh;
+    left: 20%;
     padding: 20px;
     text-align: left;
     color: black;
@@ -135,14 +139,75 @@
     margin-top: 34px;
   }
 
-  .fig-caption:hover{
-    hide: true;
+  .fig-caption-price{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Raleway', arial;
+    line-height: 22.4px;
+    color: #303030;
+    font-size: 16px;
+    margin-top: 34px;
+    font-style: italic;
   }
 
 
 
 
 
+
+
+  
+  .figure {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .overlay .view-detail-btn {
+    padding: 10px 20px;
+    border: 1px solid #C48B21;
+    background-color: white;
+    color: #C48B21;
+    margin-top: 25rem;
+    width: 100%;
+    transition: 0.3s;
+  }
+  
+  .figure:hover figcaption {
+    display: none;
+  }
+  
+  .figure:hover .overlay {
+    display: flex;
+  }
+  
+  .footer-text{
+    font-family: 'Raleway', arial;
+    font-size: 12px;
+    line-height: 10px;
+    color: #595959;
+  }
+
+  .socials{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #595959;
+  }
 
 
 
@@ -210,7 +275,9 @@
 }
 .cart.active{
     right: 0;
-    transition: 0.3s cubic-bezier(0.075 ,0.82,0.165,1)
+    transition: 0.3s cubic-bezier(0.075 ,0.82,0.165,1);
+    background-color: gainsboro;
+    z-index: 99;
 }
 
 .cart-title{
